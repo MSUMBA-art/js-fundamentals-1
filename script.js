@@ -29,10 +29,23 @@ console.log(year);
 console.log(typeof year);*/
 
 // LET, CONST & VAR
-let age = 40;
-age = 41;
+// let age = 40;
+// age = 41;
 
-const birthYear = 1998;
+// const birthYear = 1998;
 // birthYear = 1999
 
 // const myAge; // this is not allowed
+
+// OPERATORS
+const now = 2037;
+const ageAlex = now - 1991;
+ageSarah = now - 2018;
+console.log(ageAlex, ageSarah);
+
+console.log(ageAlex * 2, ageAlex / 10, 2 ** 3);
+
+
+const firstName = 'Alexander';
+const lastName = 'Msumba';
+console.log(firstName + ' ' + lastName);

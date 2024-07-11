@@ -38,6 +38,8 @@ console.log(typeof year);*/
 // const myAge; // this is not allowed
 
 // OPERATORS
+
+// math operators
 const now = 2037;
 const ageAlex = now - 1991;
 ageSarah = now - 2018;
@@ -49,3 +51,20 @@ console.log(ageAlex * 2, ageAlex / 10, 2 ** 3);
 const firstName = 'Alexander';
 const lastName = 'Msumba';
 console.log(firstName + ' ' + lastName);
+
+// assignment operators 
+let x = 10 + 5;
+x += 10 // x = x + 10 = 25
+x *= 4 // x = x * 4 = 100
+x ++;
+x--;
+x--;
+console.log(x);
+
+// comparison operators 
+console.log(ageAlex > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge);
+console.log(now - 1991 >= now -2018);

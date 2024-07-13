@@ -36,32 +36,32 @@
 
 // Try to change one of the changed variables now, and observe what happens.
 
-language = 'portuguese';
- const country = 'Portugal';
-const continent = 'Europe';
+// language = 'portuguese';
+//  const country = 'Portugal';
+// const continent = 'Europe';
 // const isIsland = false;
 // isIsland = true;
 
 // Basic Operators
 // 1 If your country split in half, and each half would contain half the population, then how many people would live in each half?
 
-let population = 64000000;
-console.log(population / 2);
+// let population = 64000000;
+// console.log(population / 2);
 
 // 2 Increase the population of your country by 1 and log the result to the console.
 
-population++;
-console.log(population);
+// population++;
+// console.log(population);
 
 // 3. Finland has a population of 6 million. Does your country have more people than Finland?
-let finlandPopulation = 6000000;
-console.log(population >= finlandPopulation);
+// let finlandPopulation = 6000000;
+// console.log(population >= finlandPopulation);
 
 // 4. The average population of a country is 33 million people. Does you country have less people than the average country?
-console.log(population < 33000000);
+// console.log(population < 33000000);
 
 // 5. Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'
 
-const description = country + ' is in ' + continent + ' and its ' + population + ' people speak ' + language
+/*const description = country + ' is in ' + continent + ' and its ' + population + ' people speak ' + language
 
-console.log(description);
+console.log(description);*/

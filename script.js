@@ -117,8 +117,8 @@ if (birthYear <= 2000) {
 console.log(century);*/
 
 // ==== TYPE CONVERSION AND COERCION ====
-//  type conversion 
-const inputYear = "1991";
+//  type conversion
+/*const inputYear = "1991";
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
 
@@ -153,4 +153,23 @@ if (height) {
     console.log("Hey, height is great");
 } else {
     console.log('height is UNDEFINED');
+}*/
+
+// ====== EQUALITY OPERATORS == vs === 
+const age = 18;
+if (age === 18) console.log("He is old (strict)"); // use ===
+
+if (age == 18) console.log('He is old (loose)'); // avoid ==
+
+const fav = Number(prompt("What is your name"));
+console.log(fav);
+console.log(typeof fav);
+
+if (fav === 40) {
+    console.log("That is my age");
+} else if (fav === 7) {
+    console.log("That is not my age");
+} else {
+    console.log("non of the above");
 }
+

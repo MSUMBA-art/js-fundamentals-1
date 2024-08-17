@@ -173,8 +173,8 @@ if (fav === 40) {
     console.log("non of the above");
 }*/
 
-// ===== LOGICAL OPERATORS ======= 
-const hasDriversLicense = true // A
+// ===== LOGICAL OPERATORS =======
+/*const hasDriversLicense = true // A
 const hasGoodVision = true; // B
 
 console.log(hasDriversLicense && hasGoodVision);
@@ -190,7 +190,35 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
     console.log('Sarah is able to drive');  
 } else {
     console.log('Someone must drive'); 
+}*/
+
+// ======== THE SWITCH STATEMENT ========
+const day = "tuesday";
+
+switch (day) {
+    case 'monday':
+        console.log("plan my week");
+        console.log("coding school");
+        break;
+    case "tuesday":
+        console.log("Going to gym");
+        break;
+    case "wednesday":
+        console.log("Midweek service");
+        break;
+    case "thursday":
+    case "friday":
+        console.log("I go to work");
+        break;
+    case "saturday":
+    case "sunday":
+        console.log("Church");
+        break;
+    default:
+        console.log("not valid");      
 }
+
+
 
 
 

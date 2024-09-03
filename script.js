@@ -193,7 +193,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 }*/
 
 // ======== THE SWITCH STATEMENT ========
-const day = "tuesday";
+/*const day = "tuesday";
 
 switch (day) {
     case 'monday':
@@ -217,6 +217,36 @@ switch (day) {
     default:
         console.log("not valid");      
 }
+        */
+
+// STATEMENTS AND EXPRESSIONS
+// if (100 > 20) {
+//     const str = '100 is greater'
+// }
+
+// const me = 'Alexander'
+// console.log(`I'm ${2024 - 1983} year old ${me}`);
+
+// THE CONDITIONAL (Ternary) OPERATOR 
+ const age = 23;
+// age >= 18 ? console.log("I like to drink wine") : console.log('I drink water');
+
+const drink = age >= 18 ? "I drink wine" : "I drink water";
+console.log(drink);
+
+let me = 'Alex';
+if (age >= 23) {
+    me = "Alexander is old"
+} else {
+    me = "he is young"
+}
+
+console.log(me);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
+
+
 
 
 
